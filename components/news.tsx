@@ -55,7 +55,7 @@ const News = () => {
 
       {number.map((item, i) => {
         return (
-          <NewsItemSite
+          <NewsItem
             title="Fades preferred infaltion measures rose 4.7% in May,around multi-decade heights"
             date="Jan 22,2022"
           />
