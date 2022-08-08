@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Grid, Box, Typography, Paper, ThemeProvider } from '@mui/material'
-import NewsItem from './NewsItem'
+import NewsItem from './News/newsitem'
 
 const styles = {
   newsHeading: {

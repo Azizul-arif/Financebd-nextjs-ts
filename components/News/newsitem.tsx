@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { Grid, Box, Typography, Paper, ThemeProvider } from '@mui/material'
-import Theme from '../utils/theme'
+import Theme from '../../utils/theme'
 
 const theme = Theme
 
