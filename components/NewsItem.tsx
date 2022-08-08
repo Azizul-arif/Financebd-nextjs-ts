@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { Grid, Box, Typography, Paper, ThemeProvider } from '@mui/material'
-import Theme from './theme'
+import Theme from '../utils/theme'
 
 const theme = Theme
 
@@ -49,7 +49,7 @@ type NewsItemProps = {
   date: string
 }
 
-const NewsItemSite: FC<NewsItemProps> = ({ title, date }) => {
+const NewsItem: FC<NewsItemProps> = ({ title, date }) => {
   return (
     <ThemeProvider theme={theme}>
       <Paper elevation={3} sx={styles.newsBar}>
@@ -62,4 +62,4 @@ const NewsItemSite: FC<NewsItemProps> = ({ title, date }) => {
   )
 }
 
-export default NewsItemSite
+export default NewsItem

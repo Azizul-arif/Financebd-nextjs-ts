@@ -4,11 +4,11 @@ import { colors, List, Paper } from '@mui/material'
 import { Grid, Box, Typography, ThemeProvider } from '@mui/material'
 import LogoutIcon from '@mui/icons-material/Logout'
 import AppsIcon from '@mui/icons-material/Apps'
-import BarChart from './barchart'
+import BarChart from './Barchart'
 import { blue } from '@mui/material/colors'
-import News from './news'
-import Theme from './theme'
-import { Colors, bottomLine } from './theme'
+import News from './News'
+import Theme from '../utils/theme'
+import { Colors, bottomLine } from '../utils/theme'
 
 const styles = {
   leftsideNav: {
@@ -34,7 +34,7 @@ const Board = () => {
     <section style={{ marginTop: '90px' }}>
       <div
         style={{
-          backgroundColor: Colors.secondary,
+          backgroundColor: Colors.secondary, //colors from Theme
           height: '1px',
           width: '1700px',
           marginBottom: '15px',
@@ -50,6 +50,7 @@ const Board = () => {
             <div>
               <Typography
                 variant="h6"
+                /**Colors from Theme */
                 sx={{
                   color: Colors.primary,
                   marginTop: '-5px',

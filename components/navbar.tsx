@@ -6,7 +6,7 @@ import { AppBar, Toolbar, Typography, Grid } from '@mui/material'
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
-import SearchBox from './searchbox'
+import SearchBox from './Searchbox'
 import logo from './../assets/Logo.jpg'
 
 const styles = {
